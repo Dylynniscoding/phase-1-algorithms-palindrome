@@ -1,6 +1,11 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  // return true if the word is the same forwards and backwards
+  // otherwise return false
+  let reversedWord = word.split("").reverse().join("");
+  return word === reversedWord;
+  
 }
+
 
 /* 
   Add your pseudocode here
